@@ -10,4 +10,4 @@ organization_url_name: null
 
 テスト投稿
 
-![](https://raw.githubusercontent.com/ishikawa0400/post-syncer/main/images/free-sample.jpg)
+![](https://raw.githubusercontent.com/iskwyuki/post-syncer/main/images/free-sample.jpg)
