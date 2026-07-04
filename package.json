@@ -15,7 +15,7 @@
     "preview:qiita:start": "cd qiita && npx qiita preview",
     "preview:qiita:open": "wait-on http://localhost:8888 && opener http://localhost:8888",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "git config core.hooksPath .githooks"
+    "prepare": "git config core.hooksPath .githooks || true"
   },
   "dependencies": {
     "@qiita/qiita-cli": "^0.3.0",
