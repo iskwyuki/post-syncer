@@ -1,0 +1,10 @@
+#!/bin/sh
+# 品質ゲート: コミット前に型チェックを必ず通す。
+# Claude 経由・手動を問わず、すべてのコミットに git ネイティブ層で適用される。
+# 緊急回避は git commit --no-verify（原則使わない）。
+set -e
+
+echo "[quality-gate] tsc --noEmit"
+npx tsc --noEmit
+
+echo "[quality-gate] OK"

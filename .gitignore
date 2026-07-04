@@ -2,3 +2,11 @@ node_modules
 .DS_Store
 qiita/public/.remote/
 /qiita/public/.remote/
+
+# Claude Code ランタイム状態（セッションローカル。コミット禁止）
+.claude/state/
+.claude/sessions/
+.claude/memory/
+.claude/settings.local.json
+.harness-worktrees/
+.claude/worktrees/
