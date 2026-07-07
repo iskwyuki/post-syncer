@@ -2,7 +2,7 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "description": "For centralized management of my Zenn and Qiita articles",
-  "author": "ishikawa",
+  "author": "iskwyuki",
   "scripts": {
     "ztoq": "ts-node scripts/ztoq.ts",
     "format": "prettier --write .",
